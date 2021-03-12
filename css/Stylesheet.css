@@ -1,19 +1,22 @@
 @charset "utf-8";
+body {font-family: 'Akaya Telivigala', cursive; background-color: #2856D1; padding: auto;}
+h1 { font-size: 20px; margin: 1em 0; padding: 10px;}
+p { line-height: 1.4; }
+h2{padding: 20px; font-family: 'Akaya Telivigala', cursive;}
+a { color: #ff8000; }
+
 .column {
   float: left;
   width: 33.33%;
   padding: 15px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
+.row {  display: table;
   clear: both;
 
 @media screen and (max-width:600px) {
   .column {
-    width: 75%;
+    width: 50%;
   }
 	header {
   background-color: #666;

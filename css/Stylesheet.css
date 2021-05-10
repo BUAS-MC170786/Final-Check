@@ -9,22 +9,18 @@ a { color: #F5F5F5; }
   float: right;
   width: 33.33%;
   padding: 10px;
+  text-align: center;
 }
 body{background-image:url("../images/background1.jpg")}
 
 .row {  display: table;
 	clear: both;
-	max-width:500px); }
+	max-width:500px; }
 img{max-width: 500px;
 width: 75%;
   border-radius: 1%;
 }
-	
-  .column {
-    width: 25%;
-	  text-align: center;
-  }
-	header {
+header {
   background-color: #666;
   padding: 20px;
   text-align: center;

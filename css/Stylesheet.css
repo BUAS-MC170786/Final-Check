@@ -5,20 +5,20 @@ p { line-height: 1.4; }
 h2{padding: 20px; font-family: 'Akaya Telivigala', cursive; color:blanchedalmond;}
 a { color: #F5F5F5; }
 
-.column {
-  float: right;
-  width: 33.33%;
+#container {
+  width: 75%;
   padding: 10px;
   text-align: center;
 }
-body{background-image:url("../images/background1.jpg")}
+body{background-image:url("../images/background1.jpg")
+}
 
-.row {  display: table;
-	clear: both;
-	max-width:500px; }
 img{max-width: 500px;
 width: 75%;
-  border-radius: 1%;
+  border-radius: 2%;
+}
+img:hover{
+	transform: scale(1.2);
 }
 header {
   background-color: #666;
